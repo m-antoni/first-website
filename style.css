@@ -1,0 +1,286 @@
+/* body section*/
+#page{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+html{
+    background-color: #2b0306;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navigation bar */
+nav {
+    position: absolute;
+    top: 30px;
+    left: 35%;
+    width: 350px;
+}
+nav ul {
+    list-style: none;
+
+}
+
+nav ul a{
+    background-color: rgba(0,0,0,.6);
+    font-size: 1.2em;
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+    color: greenyellow;
+    padding: 10px;
+}
+nav ul a:hover{
+    color: #58ffff;
+}
+
+/* text section */
+span{
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+h2 {
+    color: yellowgreen;
+    font-size: 1.8em;
+}
+
+#mike{
+    color: #444444;
+}
+section aside #intro1 p{
+    font-size: .9em;
+}
+
+/* header section */
+header{
+    background: url('img/leaves2.jpg') no-repeat center;
+    height: 650px;
+    position: relative;
+}
+
+header .hero p{
+    position: absolute;
+    background-color: rgba(0,0,0,.5);
+    top: 350px;
+    left: 5%;
+    width: 200px;
+    font-size: 1.2em;
+    border-left:5px solid darkorange;
+    border-radius: 0 20px 0 0;
+    color: ghostwhite;
+    padding: 20px;
+}
+header .hero p:hover{
+    background-color: rgba(0,99,100,.5);
+}
+
+/*images section*/
+
+.profile img{
+    width: 390px;
+    padding: 0 20px 20px 0;
+    float: left;
+}
+/* article section */
+.intro{
+    padding: 10px;
+    background-color: #cc6633;
+    color: navajowhite;
+    font-weight: 200;
+    font-size: 1.2em;
+    clear: both;
+}
+
+#preface{
+    background-color: #fff0bf;
+    padding: 10px 20px 50px 20px;
+}
+
+#preface img{
+    float: right;
+    width: 70%;
+    height: 420px;
+    border-radius: 20px;
+}
+#preface p{
+    float: left;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    font-size: .9em;
+    border-radius: 40px 40px 0 0;
+    border: 5px solid brown;
+    background-color: #d2bd65;
+    margin-top: 50px;
+    padding: 30px 30px 20px 20px;
+}
+
+#preface:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#interest{
+    font-size: 1em;
+    color: #000000;
+    overflow: hidden;
+    padding: 0 0 50px 30px;
+    background-color: #555555;
+}
+#interest #movies{
+    position: relative;
+    float: left;
+    margin-right: 1em;
+    background-color: #cc6633;
+    padding: 0 20px 0 0;
+    border-radius: 0 20px 0 20px;
+}
+#interest #tvseries{
+    position: relative;
+    float: left;
+    margin-right: 1em;
+    background-color: #cc6633;
+    padding: 0 20px 0 0;
+    border-radius: 0 20px 0 20px;
+}
+#interest #books{
+    position: relative;
+    float: left;
+    margin-right: 1em;
+    background-color: #cc6633;
+    padding: 0 20px 0 0;
+    border-radius: 0 20px 0 20px;
+}
+#interest #hobbies{
+    position: relative;
+    float: left;
+    margin-right: 1em;
+    background-color: #cc6633;
+    padding: 0 20px 0 0;
+    border-radius: 0 20px 0 20px;
+}
+#interest #foods{
+    position: relative;
+    float: left;
+    margin-right: 1em;
+    background-color: #cc6633;
+    padding: 0 20px 0 0;
+    border-radius: 0 20px 0 20px;
+}
+
+#interest #movies:hover,
+#interest #tvseries:hover,
+#interest #hobbies:hover,
+#interest #books:hover,
+#interest #foods:hover{
+    background-color: #d2bd65;
+}
+
+.interest{
+    position: relative;
+    padding-left: 20px;
+    color: yellow;
+}
+
+
+#mybike{
+    text-decoration: none;
+    color: #47c700;
+    font-size: 1em;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #6d0911;
+}
+#mybike:hover {
+    background-color: #000000;
+    color: yellow;
+
+}
+/* cycling article section */
+#cycling{
+    background-color: #478688;
+    padding: 10px 20px 50px 20px;
+}
+#cycling p{
+    padding-top: 30px;
+    text-align: left;
+    font-size: 1em;
+    display: block;
+    width: 45%;
+
+}
+
+#cycling #cyclingimg img{
+    position: relative;
+    top: 10px;
+    padding-left: 10px;
+    float: right;
+    width: 650px;
+    border-radius: 30px 0 30px 0;
+}
+
+#cycling #benefits img{
+    float: right;
+    padding-left:10px;
+    width: 650px;
+    border-radius: 30px 0 30px 0;
+}
+#cycling:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#cycling #health{
+    padding-top: 50px;
+}
+
+/* three subtopics */
+#threeSub{
+    background-color: #bd4c4c;
+    padding: 30px 50px 50px 50px;
+}
+#threeSub p{
+    font-size: 1.2em;
+    font-weight: 500;
+    border-left: solid 4px navajowhite;
+    padding-left: 10px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    max-width: 1200px;
+    width:100%;
+    background-color: rgba(0,0,0,.4);
+    border: 2px solid black;
+    border-radius: 10px 10px 0 0;
+}
+footer p{
+    text-align: left;
+    margin: 0;
+    color: lawngreen;
+    font-weight: bold;
+    padding: 1px 0 0 12px;
+}
+footer p:hover{
+    color: white;
+}
+footer p a{
+    text-decoration: none;
+    padding: 1px 12px 0 0;
+    float: right;
+    color: lawngreen;
+}
+footer p a:hover{
+    color: white;
+}
